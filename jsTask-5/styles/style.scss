@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 15px 0;
+  
+  
+}
+
+.aside {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  margin-right: 20px;
+  .fa-solid {
+    font-size: 18px;
+    color: red;
+  }
+  .aside_control {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    .arrow {
+      width: 40px;
+      border: 1px solid grey;
+      padding: 10px;
+      cursor: pointer;
+    }
+    .aside_up {
+      margin: 0 auto 10px;
+      text-align: center;
+    }
+    .aside_control-arrow {
+      display: flex;
+      gap: 5px;
+    }
+  }
+}
+
+.form {
+    
+  color: red;
+  label {
+    margin-bottom: 10px;
+  }
+  input {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .generate {
+    width: 100%;
+    padding: 5px 15px;
+    border: 1px solid blue;
+    color: blue;
+    font-size: 18px;
+    background-color: #fff;
+  }
+}
+
+.field {
+  position: relative;
+  width: 1000px;
+  height: 400px;
+  border: 1px solid grey;
+  .field_box {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border: 1px solid #000;
+    background-color: red;
+    width: 24px;
+    height: 24px;
+  }
+  .field_box-barrier {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+
+    background-color: #000;
+  }
+}
